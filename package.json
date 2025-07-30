@@ -2,21 +2,26 @@
   "name": "my-portfolio-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://karthickravi594.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
-    "tailwindcss": "^2.2.19",
-    "postcss": "^8.4.5",
-    "autoprefixer": "^10.4.2"
+    "tailwindcss": "^2.2.19"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
