@@ -7,7 +7,7 @@ const About = () => {
                     Software Engineer with 8 years of experience (including 1-year internship) in developing full-stack web applications. Proficient in JavaScript, React, Node, MongoDB, AWS and Git. Strong background in leading teams, building scalable front-end/back-end- end systems, and delivering business-critical features.
                 </p>
                 <h3 className="text-2xl font-semibold mb-4">Skills</h3>
-                <div className="flex flex-wrap gap-64 mb-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
                     <ul className="list-disc list-inside space-y-2">
                         <li>React</li>
                         <li>react js</li>
@@ -28,10 +28,6 @@ const About = () => {
                         <li>Sonar</li>
                     </ul>
                 </div>
-                <h3 className="text-2xl font-semibold mb-4">Experience</h3>
-                <p className="text-lg">
-                    I have worked on various projects that have helped me hone my skills in front-end development and design.
-                </p>
             </div>
         </section>
     );

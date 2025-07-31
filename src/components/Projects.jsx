@@ -22,7 +22,7 @@ const projects = [
 ];
 
 const Projects = () => (
-    <section id="projects" className="py-10 bg-gray-100">
+    <section id="projects" className="pb-10 bg-gray-100">
         <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8">Projects</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
