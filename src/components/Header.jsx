@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Karthick from '../logo/Karthick.jpg'
 const Header = () => {
     return (
         <header className="bg-gray-800 text-white p-4">
@@ -14,7 +14,7 @@ const Header = () => {
                 {/* Right: Name and Logo */}
                 <div className="flex items-center space-x-4">
                     <h1 className="text-2xl font-bold">Karthick Ravichandran</h1>
-                    <img src="/logo/Karthick.jpg" alt="Logo" className="w-12 h-12 rounded-full" />
+                    <img src={Karthick} alt="Logo" className="w-12 h-12 rounded-full" />
                 </div>
             </div>
         </header>
