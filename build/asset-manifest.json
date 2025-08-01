@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.61358c3e.css",
-    "main.js": "/portfolio/static/js/main.59d84705.js",
+    "main.css": "/portfolio/static/css/main.4425c9f3.css",
+    "main.js": "/portfolio/static/js/main.116315f4.js",
     "static/media/Karthick.jpg": "/portfolio/static/media/Karthick.19f3b42ccd3ee7adf7ec.jpg",
     "static/media/Qburst-Logo.png": "/portfolio/static/media/Qburst-Logo.31f02b15b95d80368735.png",
     "static/media/IBM-Logo.png": "/portfolio/static/media/IBM-Logo.133758c7bcbe8ef65042.png",
     "static/media/hubino.jpeg": "/portfolio/static/media/hubino.8cb587ec6b87ba6722b8.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.61358c3e.css.map": "/portfolio/static/css/main.61358c3e.css.map",
-    "main.59d84705.js.map": "/portfolio/static/js/main.59d84705.js.map"
+    "main.4425c9f3.css.map": "/portfolio/static/css/main.4425c9f3.css.map",
+    "main.116315f4.js.map": "/portfolio/static/js/main.116315f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.61358c3e.css",
-    "static/js/main.59d84705.js"
+    "static/css/main.4425c9f3.css",
+    "static/js/main.116315f4.js"
   ]
 }
